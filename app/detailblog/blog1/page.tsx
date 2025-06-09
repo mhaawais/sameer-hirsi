@@ -42,10 +42,10 @@ const Blog1 = () => {
       {/* Blog Content Section */}
       <div className="w-full bg-black py-16 px-6 md:px-10 lg:px-20">
         <h2 className="text-myred text-2xl md:text-4xl font-bold text-center mb-10">
-          A Wake-Up Call for the Dreamers, the Fighters, and the Broken:
+          A Gripping Start to an Unfolding Trilogy:
         </h2>
         <div className="w-full text-white text-base md:text-lg space-y-6 leading-relaxed tracking-tight max-w-4xl mx-auto">
-          <p className="italic">
+          {/* <p className="italic">
             By Dr. D : <br />
             What if the only person you needed to outgrow... was who you were
             yesterday?
@@ -60,19 +60,42 @@ const Blog1 = () => {
             reflection on resilience, growth, and self-belief. This isn’t a
             sugar-coated self-help guide. It’s a journey through the mess, the
             mistakes, and the miracles of a life still unfolding."
+          </p> */}
+          <p>
+           What happens when a man wakes up in a hospital with no memory, only to discover he’s not only a respected judge but also the survivor of a suspicious car accident? <span className="font-extrabold"> Beyond Reach: Point Zero, the first installment in Sameer Hirsi’s</span> thrilling trilogy, throws readers headfirst into a story of forgotten identities, tangled friendships, buried secrets, and a relentless search for justice.
           </p>
           <p>
-            With the wisdom of a mentor, the warmth of a brother, and the grit
-            of someone who’s lived through it all, Dr. D shares stories that
-            span continents and seasons rising from rural Kenya to American
-            lecture halls, from childhood wounds to adult awakenings. Through
-            every chapter, one message remains:
+            Part One introduces us to Judge Jack Wilson, who, after a near-fatal car crash, finds himself facing the terrifying reality of memory loss. The woman claiming to be his wife, Katarina a brilliant detective reveals that the crash might not have been accidental. As Jack fights to reconstruct his past, Katarina dives into a dangerous investigation that could shake their world.
           </p>
-          <p className="uppercase font-bold text-lg">
-            You’re not stuck. You’re evolving. And your breakthrough is still
-            possible.
+          <p className="italic font-bold text-lg text-myred">
+           But this is far more than a medical mystery.
           </p>
-          <p className="italic">Inside this book, you’ll find:</p>
+
+          <p>
+            We are taken back to the college days at Stanford, where Jack, Alan, Tim, and their unforgettable circle of friends first began shaping their ideals and ambitions. The storytelling shifts effortlessly between timelines, weaving humor, romance, tension, and ambition into a rich tapestry of youthful dreams and adult dilemmas.
+          </p>
+
+          <p>
+            As readers grow to love these layered characters like the relentless Katarina, the witty Alan, the grounded Tim, and the quietly ambitious Jessie, they’ll find themselves pulled into a world where friendships are tested, love evolves, and justice is always just out of reach.
+          </p>
+
+          <p>
+            This isn’t just Jack’s story it’s the story of an entire generation navigating their futures, fighting internal and external battles, and staying connected through it all.
+          </p>
+
+          <p className="italic">
+            And this is just the beginning.
+          </p>
+
+          <p>
+            <span className="font-semibold">Beyond Reach: Point Zero</span> is the first part of a multi-book series. The journey doesn’t end here. In fact, it’s only getting started. With twists waiting to be unraveled in Parts Two and Three, readers will soon find themselves deep in courtroom drama, entangled romances, political undercurrents, and a storm of secrets that could change everything.
+          </p>
+
+          <p>
+            <span className="text-myred italic">Ready to dive in?</span> Start with Part One and keep your eyes open because in this story, nothing is ever quite as it seems.
+          </p>
+
+          {/* <p className="italic">Inside this book, you’ll find:</p>
 
           <p>
             • Personal stories of pain, hustle, and healing
@@ -124,7 +147,7 @@ const Blog1 = () => {
             settle.
           </p>
 
-          {/* Tags Footer */}
+          {/* Tags Footer 
           <div className="mt-12 text-[15px] font-medium flex flex-wrap gap-x-4 gap-y-2 tracking-widest leading-snug">
             <span>• Self-help book for men</span>
             <span>• Overcoming failure and setbacks</span>
@@ -134,25 +157,27 @@ const Blog1 = () => {
             <span>• Beat your past and build your future</span>
             <span>• Resilience and mindset transformation</span>
             <span>• Books about starting over in life</span>
-          </div>
+          </div> */}
 
           <div className="mt-6 text-[15px] tracking-wide font-semibold text-right">
-            Charles Muthui (DR. D)
+            Sameer Hirsi
           </div>
 
           <div className="px-6 sm:px-12 lg:px-20 xl:px-28 mt-14 border-t pt-6">
             <div className="text-left">
               <Link href="/detailblog/blog2">
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-review">
-                  ROCK ON: &gt; <br />
-                  ROCK BOTTOM WASN’T THE END.
-                  <br />
+                  DESTINY POINT: &gt; <br />
+                  BEYOND REACH POINT ZERO.
+                  {/* <br />
                   IT WAS THE BEGINNING.
-                  <br />
+                  <br /> */}
                 </h2>
               </Link>
             </div>
           </div>
+
+
         </div>
       </div>
 

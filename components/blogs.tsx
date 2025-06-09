@@ -39,11 +39,10 @@ const BlogsSection = () => {
             />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2 text-gray-800">
-                Exploring the Books
+                Beyond Reach: Point Zero – A Gripping Start to an Unfolding Trilogy
               </h3>
               <p className="text-gray-600 mb-4">
-                Dive into the latest trends shaping the tech world, from AI
-                innovations to sustainable solutions.
+                What happens when a man wakes up in a hospital with no memory, only to discover he’s not only a respected judge.
               </p>
               <Link
                 href="/detailblog/blog1"
@@ -64,7 +63,7 @@ const BlogsSection = () => {
            hasAnimated ? "animate-slideInRight" : "opacity-0"
            } `}>
             <Image
-              src="/assets/images/E-book.JPG"
+              src="/assets/images/2nd.JPG"
               alt="The Art of Digital Storytelling"
               width={600}
               height={400}
@@ -72,11 +71,10 @@ const BlogsSection = () => {
             />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2 text-gray-800">
-                The Art Storytelling
+                Beyond Reach: Destiny Point – The Past Resurfaces, The Stakes Rise                       
               </h3>
               <p className="text-gray-600 mb-4">
-                Learn how to craft compelling narratives in the digital age with
-                tips from industry experts.
+                If Point Zero merely cracked open the surface of forgotten memories and buried truths, Destiny Point smashes through.
               </p>
               <Link
                 href="/detailblog/blog2"
@@ -95,7 +93,7 @@ const BlogsSection = () => {
             } `}
           >
             <Image
-              src="/assets/images/E-book.JPG"
+              src="/assets/images/2nd.JPG"
               alt="Exploring the Future of Technology"
               width={600}
               height={400}
@@ -104,11 +102,10 @@ const BlogsSection = () => {
             />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2 text-gray-800">
-                Exploring the Books
+                Beyond Reach: Critical Point – Justice Meets Destiny... or Does It?
               </h3>
               <p className="text-gray-600 mb-4">
-                Dive into the latest trends shaping the tech world, from AI
-                innovations to sustainable solutions.
+                After the storms of betrayal, and the pursuit of elusive truth, Beyond Reach – Critical Point brings the trilogy to a dramatic.
               </p>
               <Link
                 href="/detailblog/blog3"

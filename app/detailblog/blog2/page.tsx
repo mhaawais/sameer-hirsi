@@ -44,26 +44,46 @@ const Blog2 = () => {
       {/* Blog Content Section */}
       <div className="w-full bg-black py-16 px-6 md:px-10 lg:px-20">
         <h2 className="text-myred text-2xl md:text-4xl font-bold text-center mb-10">
-          A Joyful Tribute to Family, Creativity, and the Power of Bonding
-          Through Books:
+         Beyond Reach: Destiny Point – The Past Resurfaces, The Stakes Rise:
         </h2>
 
         <div className="w-full text-white text-base md:text-lg space-y-6 leading-relaxed tracking-tight max-w-4xl mx-auto">
-          <p className="italic">
+          {/* <p className="italic">
             By Dr. D (Charles Muthui Mumo): <br />
             Ever tried getting your child off the screen and into a storybook
             let alone writing one with you?
+          </p> */}
+
+          <p>
+            If Point Zero merely cracked open the surface of forgotten memories and buried truths, Destiny Point smashes through it letting secrets, betrayals, and long-hidden consequences come rushing in like a flood that refuses to be ignored.
           </p>
 
           <p>
-            Rock On is not just a picture book. It’s a family masterpiece, a
-            father-daughter collaboration born from real moments, real photos,
-            and real love. Created by Dr. D and his daughter, Taji Muthui, this
-            charming and colorful journey blends laughter, imagination, and the
-            magic of togetherness into every page.
+            In this intense second part of the Beyond Reach series by Sameer Hirsi, the fragments of the past start forming a picture but it's darker, more intentional, and far more dangerous than anyone could have imagined. But clarity doesn’t bring peace it brings chaos. Every choice made in Point Zero now returns with razor-sharp consequences, dragging long-buried shadows into the harsh light of day.
           </p>
 
           <p>
+            Destiny Point doesn’t give answers. It demands Consequences. The rules have shifted, and suddenly nothing no bond, no memory, no truth feels reliable. Trust crumbles under the weight of revelations. Justice feels rigged. And survival? It’s no longer about being the strongest it’s about knowing the game and seeing who’s quietly rewriting the rules behind the scenes.
+          </p>
+
+          <p>
+            But this isn’t the final PART. It’s just the start of something deeper, darker, and more calculated. Destiny Point lifts the veil but something more dangerous is still out there. 
+          </p>
+
+         <p>
+          Watching. Waiting. And as the past starts shouting louder than ever, one question haunts the edge of it all: <br /> Has anyone truly been in control… or have they all been part of someone else’s plan?
+         </p>
+ 
+          <p>
+            <span className="font-bold text-myred">With the past uncovered and the present shaken, what lies ahead may be even more devastating.</span> Destiny Point ends with a haunting question: When truth finally rises, will everyone survive it?
+          </p>
+
+
+
+
+
+
+          {/* <p>
             What began as a fun experiment turned into a heartfelt legacy. This
             book isn’t about perfection, it’s about presence. It’s about a dad
             who turned screen time into dream time. And in doing so, he gave his
@@ -131,7 +151,7 @@ const Blog2 = () => {
             Let it be the beginning of your own creative legacy."
           </p>
 
-          {/* Tags Footer */}
+          {/* Tags Footer *
           <div className="mt-12 text-[15px] font-medium flex flex-wrap gap-x-4 gap-y-2 tracking-widest leading-snug">
             <span>• Father daughter book</span>
             <span>• Creative parenting book</span>
@@ -139,26 +159,32 @@ const Blog2 = () => {
             <span>• Books that reduce screen time</span>
             <span>• Family bonding stories</span>
             <span>• Children’s picture book with real photos</span>
-          </div>
+          </div> */}
 
           <div className="mt-6 text-[15px] tracking-wide font-semibold text-right">
-            Taji Charles Muthui
+            Sameer Hirsi
           </div>
 
           <div className="px-6 sm:px-12 lg:px-20 xl:px-28 mt-14 border-t pt-6">
             <div className="text-left">
               <Link href="/detailblog/blog3">
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-review">
-                  BEAT YOUR YESTERDAY: &gt;
+                  CRITICAL POINT: &gt;
                   <br />
-                  A Wake-Up Call for the Dreamers.
-                  <br />
+                   BEYOND REACH POINT ZERO.
+                  {/* <br />
                   The Fighters, and the Broken.
-                  <br />
+                  <br /> */}
                 </h2>
               </Link>
             </div>
           </div>
+
+
+
+
+
+
         </div>
       </div>
 

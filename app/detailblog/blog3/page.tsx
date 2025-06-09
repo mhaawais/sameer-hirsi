@@ -44,34 +44,52 @@ const Blog3 = () => {
       {/* Blog Content Section */}
       <div className="w-full bg-black py-16 px-6 md:px-10 lg:px-20">
         <h2 className="text-myred text-2xl md:text-4xl font-bold text-center mb-10">
-          A Joyful Tribute to Family, Creativity, and the Power of Bonding
-          Through Books:
+         Beyond Reach: Critical Point – Justice Meets Destiny... or Does It?:
         </h2>
 
         <div className="w-full text-white text-base md:text-lg space-y-6 leading-relaxed tracking-tight max-w-4xl mx-auto">
-          <p className="italic">
+          {/* <p className="italic">
             By Dr. D (Charles Muthui Mumo): <br />
             Ever tried getting your child off the screen and into a storybook
             let alone writing one with you?
+          </p> */}
+
+          <p>
+            After the storms of betrayal, and the pursuit of elusive truth, Beyond Reach – Critical Point brings the trilogy to a dramatic, unforgettable peak. Jack Wilson has reached the edge. But what waits beyond it?
           </p>
 
           <p>
-            Rock On is not just a picture book. It’s a family masterpiece, a
-            father-daughter collaboration born from real moments, real photos,
-            and real love. Created by Dr. D and his daughter, Taji Muthui, this
-            charming and colorful journey blends laughter, imagination, and the
-            magic of togetherness into every page.
+           Sameer Hirsi delivers a high-octane, emotionally charged finale that ties together the tangled threads woven throughout Point Zero and Destiny Point.
           </p>
 
           <p>
-            What began as a fun experiment turned into a heartfelt legacy. This
-            book isn’t about perfection, it’s about presence. It’s about a dad
-            who turned screen time into dream time. And in doing so, he gave his
-            daughter the tools to express herself, create art, and proudly say:{" "}
-            <span className="italic">“I helped make that!”</span>
+            The revelations are explosive. The consequences are real. The system they once served may never look the same again.
           </p>
 
-          <p className="italic font-semibold">What you’ll find Inside:</p>
+          <p>
+            But even as the dust settles and long-awaited truths come to light, not everything is as final as it seems.
+          </p>
+
+          <p className="pl-4 border-l-4 border-myred italic">
+            “Because some doors don’t close completely.,
+            <br />
+            Some truths hide deeper still,
+            <br />
+            And some stories are meant to continue....”
+          </p>
+
+          <p>
+            Critical Point is not just an ending it’s a launchpad. While it delivers the emotional payoff that readers crave, it also leaves behind a quiet pulse... a whisper that surely there’s more to come.
+          </p>
+
+          <p>
+            <span className="italic text-myred font-bold">The trilogy reaches its climax but not necessarily its conclusion.</span> The journey may have reached a “critical point,” but destiny always finds a way forward.
+          </p>
+
+
+
+
+          {/* <p className="italic font-semibold">What you’ll find Inside:</p>
 
           <p>
             • A vibrant, animated celebration of childhood wonder
@@ -131,7 +149,7 @@ const Blog3 = () => {
             Let it be the beginning of your own creative legacy."
           </p>
 
-          {/* Tags Footer */}
+          {/* Tags Footer 
           <div className="mt-12 text-[15px] font-medium flex flex-wrap gap-x-4 gap-y-2 tracking-widest leading-snug">
             <span>• Father daughter book</span>
             <span>• Creative parenting book</span>
@@ -139,26 +157,33 @@ const Blog3 = () => {
             <span>• Books that reduce screen time</span>
             <span>• Family bonding stories</span>
             <span>• Children’s picture book with real photos</span>
-          </div>
+          </div> */}
+
+
+
+
 
           <div className="mt-6 text-[15px] tracking-wide font-semibold text-right">
-            Taji Charles Muthui
+            Sameer Hisri
           </div>
 
           <div className="px-6 sm:px-12 lg:px-20 xl:px-28 mt-14 border-t pt-6">
             <div className="text-left">
               <Link href="/detailblog/blog1">
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-review">
-                  &lt; BEAT YOUR YESTERDAY:
+                  &lt; BEYOND REACH POINT ZERO:
                   <br />
-                  A Wake-Up Call for the Dreamers.
-                  <br />
+                  A Gripping Start to an Unfolding Trilogy.
+                  {/* <br />
                   The Fighters, and the Broken.
-                  <br />
+                  <br /> */}
                 </h2>
               </Link>
             </div>
           </div>
+
+
+
         </div>
       </div>
 

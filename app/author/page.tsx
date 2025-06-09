@@ -96,7 +96,7 @@ const Author = () => {
       </div>
 
       {/* Writer Gallery Section */}
-      <div className="bg-black py-12 px-6 md:px-10 lg:px-20">
+      {/* <div className="bg-black py-12 px-6 md:px-10 lg:px-20">
         <h2 className="text-myred text-3xl md:text-4xl font-bold text-center mb-8">
           WRITER GALLERY
         </h2>
@@ -116,14 +116,14 @@ const Author = () => {
                 height={300}
                 className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
               />
-              {/* Overlay */}
+              {/* Overlay 
               <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
   
               </div>
             </div>
           ))}
-        </div>
-      </div>
+        </div> 
+      </div>  */}
       
       <Footer />
     </section>

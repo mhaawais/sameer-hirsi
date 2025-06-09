@@ -14,8 +14,8 @@ import { useInView } from 'react-intersection-observer';
 const Three = () => {
   const books = [
     { src: '/assets/images/E-book.JPG', link: '/allbooks/book1' },
-    { src: '/assets/images/E-book.JPG', link: '/allbooks/book2' },
-    { src: '/assets/images/E-book.JPG', link: '/allbooks/book3' },
+    { src: '/assets/images/ebook-2.jpg', link: '/allbooks/book2' },
+    { src: '/assets/images/ebook-2.jpg', link: '/allbooks/book3' },
     // { src: '/assets/images/building1.jpg', link: '/allbooks/book4' },
   ];
 

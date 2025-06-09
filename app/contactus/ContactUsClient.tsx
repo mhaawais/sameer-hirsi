@@ -89,7 +89,7 @@ const ContactUsClient = () => {
           <div className="w-72 h-72 sm:w-[360px] sm:h-[360px] md:w-96 md:h-96 lg:w-[410px] lg:h-[410px] ">
             {/* Adjusted image sizes for responsiveness and reduced margin mr-2 md:mr-2 mt-12 md:mt-0*/}
             <Image
-              src="/assets/images/charles-1.jpeg"
+              src="/assets/images/E-book.JPG"
               alt="Sameer"
               height={500}
               width={300}

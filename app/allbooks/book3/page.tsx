@@ -37,7 +37,7 @@ const Book3 = () => {
       <div className='w-full bg-black px-6 md:px-10 lg:px-20 py-12'>
         <div className="container mx-auto">
           <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-myred text-center pb-8 underline hover:text-white transition duration-200">
-            BEYOND REACH POINT ZERO
+            CRITICAL POINT - BEYOND REACH III
           </h2>
           
           <div className="flex flex-col lg:flex-row items-center justify-center gap-12">

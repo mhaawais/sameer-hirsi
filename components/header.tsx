@@ -112,8 +112,8 @@ const Header = () => {
                 >
                   {[
                     { title: "BEYOND REACH POINT ZERO", link: "/allbooks/book1" },
-                    { title: "BEYOND REACH POINT ZERO", link: "/allbooks/book2" },
-                    { title: "BEYOND REACH POINT ZERO", link: "/allbooks/book3" },
+                    { title: "DESTINY POINT", link: "/allbooks/book2" },
+                    { title: "CRITICAL POINT", link: "/allbooks/book3" },
                     // { title: "Building A Functional Home", link: "/allbooks/book4" },
                   ].map((book, i) => (
                     <li key={i}>

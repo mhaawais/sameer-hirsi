@@ -37,7 +37,7 @@ const Book2 = () => {
       <div className='w-full bg-black px-6 md:px-10 lg:px-20 py-12'>
         <div className="container mx-auto">
           <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-myred text-center pb-8 underline hover:text-white transition duration-200">
-            BEYOND REACH POINT ZERO
+            DESTINY POINT - BEYOND REACH II
           </h2>
           
           <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
@@ -45,7 +45,7 @@ const Book2 = () => {
             <div className="w-full lg:w-1/2 flex justify-center">
               <div className="bg-black p-4 rounded-md w-full max-w-[500px]">
                 <Image
-                  src="/assets/images/E-book.JPG"
+                  src="/assets/images/2nd.JPG"
                   alt="Book Cover"
                   width={800}  // Increased size
                   height={1000} // Maintained aspect ratio
