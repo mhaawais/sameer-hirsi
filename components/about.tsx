@@ -23,7 +23,7 @@ const AuthorIntro = () => {
           }`}
         >
           <Image 
-            src="/assets/images/charles2.jpeg" 
+            src="/assets/images/E-book.JPG" 
             alt="Author portrait" 
             width={448}
             height={576}
