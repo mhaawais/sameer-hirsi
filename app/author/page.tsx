@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: "Author - Sameer Hirsi", 
-  description: "Learn more about Sameer Hirsi, author of 'Beyond Reach Point Zero', Discover her journey of mission, strength, and purpose.",
+  description: "Learn more about Sameer Hirsi, author of 'Beyond Reach Point Zero' and its two more parts, Discover her journey of mission, strength, and purpose.",
 };
 
 const Author = () => {

@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: "Book - Beyond Reach Point Zero | Sameer Hirsi", 
-  description: "Book: Beyond Reach Point Zero - By Taji Muthui daughter of Charles Muthui. Life's lessons through a child's innocent perspective.",
+  description: "Book: Beyond Reach Point Zero - By Sameer Hirsi. About gripping blend of psychological suspense, political intrigue, and emotional depth.",
 };
 
 const Book1 = () => {
@@ -58,12 +58,21 @@ const Book1 = () => {
             {/* Text Container */}
             <div className="w-full lg:w-1/2 text-white space-y-6 flex flex-col items-center">
               <div className="space-y-6">
+
+                 <p className="text-lg md:text-xl leading-relaxed">
+                   The Beyond Reach series by Sameer Hirsi is a gripping blend of psychological suspense, political intrigue, and emotional depth that spans a powerful installment. It begins with Point Zero, where Judge Jack Wilson wakes up in a hospital with no memory only to discover he's at the center of a mysterious crash and a tangled web of secrets. As timelines shift between present danger and youthful ambition at Stanford, readers are drawn into a world where identity, justice, and love collide.  
+                 </p>
+
                 <p className="text-lg md:text-xl leading-relaxed">
                   <span className="italic">Beyond Reach Point Zero</span> is not just a picture book. It's a family masterpiece, a father-daughter collaboration born from real moments, real photos, and real love. Created by Sameer Hirsi harming and colorful journey blends laughter, imagination, and the magic of togetherness into every page.
                 </p>
                 
                 <p className="text-lg md:text-xl leading-relaxed">
                   What began as a fun experiment turned into a heartfelt legacy. This book isn't about perfection, it's about presence. It's about a dad who turned screen time into dream time. And in doing so, he gave his daughter the tools to express herself.
+                </p>
+
+                <p className="text-lg md:text-xl leading-relaxed">
+                  Part One introduces us to Judge Jack Wilson, who, after a near-fatal car crash, finds himself facing the terrifying reality of memory loss. The woman claiming to be his wife, Katarina a brilliant detective reveals that the crash might not have been accidental. As Jack fights to reconstruct his past, Katarina dives into a dangerous investigation that could shake their world.
                 </p>
               </div>
 

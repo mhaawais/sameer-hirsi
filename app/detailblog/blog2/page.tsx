@@ -6,9 +6,9 @@ import Footer from "@/components/footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog - Sameer Hirsi | ",
+  title: "Blog - Sameer Hirsi | Destiny Point",
   description:
-    "Blog: From Rock On - Taji Muthui reflects on innocence, new beginnings, and fresh perspectives.",
+    "Blog: From Destiny Point - In second part, Sameer Hirsi reflects on innocence, new beginnings, and fresh perspectives.",
 };
 
 const Blog2 = () => {

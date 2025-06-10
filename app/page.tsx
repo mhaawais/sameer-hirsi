@@ -11,7 +11,7 @@ import BlogsSection from "@/components/blogs";
 
 export const metadata: Metadata = {
   title: "Books By Sameer Hirsi",  
-  description: "Official site for the Amazon book by Sameer Hirsi.",
+  description: "Official site for the Beyond Reach Point Zero, Destiny Point or Critical Point books by Sameer Hirsi.",
 };
 
 

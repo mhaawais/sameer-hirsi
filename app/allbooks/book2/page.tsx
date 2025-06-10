@@ -7,8 +7,8 @@ import type { Metadata } from "next";
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: "Book - Rock On | Taji Muthui", 
-  description: "Book: Rock On - By Taji Muthui daughter of Charles Muthui. Life's lessons through a child's innocent perspective.",
+  title: "Book - Destiny Point | Sameer Hirsi", 
+  description: "Book: Destiny Point - By Sameer Hirsi. About buried truths erupt into chaos.",
 };
 
 const Book2 = () => {
@@ -59,23 +59,23 @@ const Book2 = () => {
             <div className="w-full lg:w-1/2 text-white space-y-6 flex flex-col items-center">
               <div className="space-y-6">
                 <p className="text-lg md:text-xl leading-relaxed">
-                  <span className="italic">Beyond Reach Point Zero</span> is not just a picture book. It's a family masterpiece, a father-daughter collaboration born from real moments, real photos, and real love. Created by Sameer Hirsi, this charming and colorful journey blends laughter, imagination, and the magic of togetherness into every page.
+                  In this intense second part of the Beyond Reach series by Sameer Hirsi, the fragments of the past start forming a picture but it's darker, more intentional, and far more dangerous than anyone could have imagined. But clarity doesn’t bring peace it brings chaos. Every choice made in Point Zero now returns with razor-sharp consequences, dragging long-buried shadows into the harsh light of day.
                 </p>
                 
                 <p className="text-lg md:text-xl leading-relaxed">
-                  What began as a fun experiment turned into a heartfelt legacy. This book isn't about perfection, it's about presence. It's about a dad who turned screen time into dream time. And in doing so, he gave his daughter the tools to express herself.
+                  In Destiny Point, the stakes escalate as buried truths erupt into chaos. Every decision from the past returns with ruthless precision, shaking trust and testing loyalties. By the time we reach Critical Point, the trilogy hits a dramatic crescendo forcing characters to confront justice, reckon with betrayal, and redefine their futures. With razor-sharp storytelling, unforgettable characters, and twists that refuse to let go, Beyond Reach is not just a story it’s an unraveling of everything you thought you knew.
                 </p>
               </div>
 
               {/* Centered Button */}
               <div className="w-full flex justify-center pt-6">
                 <Link 
-                  href={"https://www.amazon.com/BEYOND-REACH-POINT-ZERO-Part-ebook/dp/B0F94HC3FP"} 
+                  href={""} 
                   className="bg-myred hover:bg-red-700 text-white font-bold py-4 px-10 rounded-md 
                             text-xl md:text-2xl transition-all duration-300 transform hover:scale-105 
                             shadow-lg hover:shadow-red-500/50 text-center min-w-[250px]"
                 >
-                  GET THE BOOK HERE
+                  GET THE BOOK
                 </Link>
               </div>
             </div>
