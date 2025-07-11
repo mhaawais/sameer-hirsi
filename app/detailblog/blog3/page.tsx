@@ -25,7 +25,7 @@ const Blog3 = () => {
         <div className="bg-black/50 w-full h-full absolute top-0 left-0 z-0" />
         <div className="container mx-auto flex flex-col justify-center items-center px-4 relative z-10">
           <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white underline mb-8 hover:text-myred transition duration-200">
-            BEYOND REACH POINT ZERO
+            BEYOND REACH : CRITICAL POINT
           </h2>
           <div className="flex items-center gap-3">
             <Link href="/">
@@ -34,7 +34,7 @@ const Blog3 = () => {
               </p>
             </Link>
             <FaChevronRight className="text-myred text-lg md:text-xl" />
-            <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200">
+            <p className="text-lg md:text-xl font-bold text-myred transition duration-200">
               BLOG
             </p>
           </div>
@@ -44,7 +44,7 @@ const Blog3 = () => {
       {/* Blog Content Section */}
       <div className="w-full bg-black py-16 px-6 md:px-10 lg:px-20">
         <h2 className="text-myred text-2xl md:text-4xl font-bold text-center mb-10">
-         Beyond Reach: Critical Point – Justice Meets Destiny... or Does It?:
+         Beyond Reach : Critical Point – Justice Meets Destiny... or Does It?:
         </h2>
 
         <div className="w-full text-white text-base md:text-lg space-y-6 leading-relaxed tracking-tight max-w-4xl mx-auto">
@@ -83,7 +83,8 @@ const Blog3 = () => {
           </p>
 
           <p>
-            <span className="italic text-myred font-bold">The trilogy reaches its climax but not necessarily its conclusion.</span> The journey may have reached a “critical point,” but destiny always finds a way forward.
+            <span className="italic text-myred font-bold">The trilogy reaches its climax but not necessarily its conclusion.</span><br />
+            The journey may have reached a “critical point,” but destiny always finds a way forward.
           </p>
 
 
@@ -171,7 +172,7 @@ const Blog3 = () => {
             <div className="text-left">
               <Link href="/detailblog/blog1">
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-review">
-                  &lt; BEYOND REACH POINT ZERO:
+                  &lt; POINT ZERO : BEYOND REACH
                   <br />
                   A Gripping Start to an Unfolding Trilogy.
                   {/* <br />

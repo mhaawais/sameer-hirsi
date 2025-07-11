@@ -23,7 +23,7 @@ const Blog1 = () => {
         <div className="bg-black/60 absolute inset-0 z-0" />
         <div className="container mx-auto flex flex-col justify-center items-center px-4 relative z-10">
           <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-8 underline hover:text-myred transition duration-200">
-            BEYOND REACH POINT ZERO
+            BEYOND REACH : POINT ZERO
           </h2>
           <div className="flex items-center gap-3">
             <Link href="/">
@@ -32,7 +32,7 @@ const Blog1 = () => {
               </p>
             </Link>
             <FaChevronRight className="text-myred text-lg md:text-xl" />
-            <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200">
+            <p className="text-lg md:text-xl font-bold text-myred transition duration-200">
               BLOG
             </p>
           </div>
@@ -62,7 +62,7 @@ const Blog1 = () => {
             mistakes, and the miracles of a life still unfolding."
           </p> */}
           <p>
-           What happens when a man wakes up in a hospital with no memory, only to discover he’s not only a respected judge but also the survivor of a suspicious car accident? <span className="font-extrabold"> Beyond Reach: Point Zero, the first installment in Sameer Hirsi’s</span> thrilling trilogy, throws readers headfirst into a story of forgotten identities, tangled friendships, buried secrets, and a relentless search for justice.
+           What happens when a man wakes up in a hospital with no memory, only to discover he’s not only a respected judge but also the survivor of a suspicious car accident? <span className="font-bold"> Beyond Reach: Point Zero, the first installment in Sameer Hirsi’s</span> thrilling trilogy, throws readers headfirst into a story of forgotten identities, tangled friendships, buried secrets, and a relentless search for justice.
           </p>
           <p>
             Part One introduces us to Judge Jack Wilson, who, after a near-fatal car crash, finds himself facing the terrifying reality of memory loss. The woman claiming to be his wife, Katarina a brilliant detective reveals that the crash might not have been accidental. As Jack fights to reconstruct his past, Katarina dives into a dangerous investigation that could shake their world.
@@ -92,7 +92,8 @@ const Blog1 = () => {
           </p>
 
           <p>
-            <span className="text-myred italic">Ready to dive in?</span> Start with Part One and keep your eyes open because in this story, nothing is ever quite as it seems.
+            <span className="text-myred italic">Ready to dive in? </span><br />
+            Start with Part One and keep your eyes open because in this story, nothing is ever quite as it seems.
           </p>
 
           {/* <p className="italic">Inside this book, you’ll find:</p>
@@ -167,8 +168,8 @@ const Blog1 = () => {
             <div className="text-left">
               <Link href="/detailblog/blog2">
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-review">
-                  DESTINY POINT: &gt; <br />
-                  BEYOND REACH POINT ZERO.
+                  DESTINY POINT : BEYOND REACH &gt; <br />
+                  The Past Resurfaces, The Stakes Rise
                   {/* <br />
                   IT WAS THE BEGINNING.
                   <br /> */}

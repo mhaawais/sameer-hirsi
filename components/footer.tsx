@@ -82,32 +82,37 @@ const Footer = () => {
             </button>
 
             {isBooksOpen && (
-              <div className="mt-4 bg-white rounded-lg shadow-xl px-4 py-3 w-full md:w-auto flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-6 text-sm md:text-base text-black font-semibold z-20">
-                <a
-                  href="/allbooks/book1"
-                  className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
-                >
-                  BEYOND REACH POINT ZERO
-                </a>
-                <a
-                  href="/allbooks/book2"
-                  className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
-                >
-                  DESTINY POINT
-                </a>
-                <a
-                  href="/allbooks/book3"
-                  className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
-                >
-                  CRITICAL POINT
-                </a>
-                {/* <a
-                  href="/allbooks/book4"
-                  className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
-                >
-                  Building A Functional Home
-                </a> */}
-              </div>
+              <>
+                <p className="text-myred font-bold px-2 py-2">
+                  BEYOND REACH SERIES :
+                </p>
+                <div className="mt-4 bg-white rounded-lg shadow-xl px-4 py-3 w-full md:w-auto flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-6 text-sm md:text-base text-black font-semibold z-20">
+                  <a
+                    href="/allbooks/book1"
+                    className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
+                  >
+                    POINT ZERO
+                  </a>
+                  <a
+                    href="/allbooks/book2"
+                    className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
+                  >
+                    DESTINY POINT
+                  </a>
+                  <a
+                    href="/allbooks/book3"
+                    className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
+                  >
+                    CRITICAL POINT
+                  </a>
+                  {/* <a
+        href="/allbooks/book4"
+        className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
+      >
+        Building A Functional Home
+      </a> */}
+                </div>
+              </>
             )}
           </div>
 
@@ -123,10 +128,24 @@ const Footer = () => {
           >
             BLOG
           </a>
-          <a href="/contactus" className="hover:text-myred w-full text-center md:w-auto">
-            CONTACT US
+          <a
+            href="/contactus"
+            className="hover:text-myred w-full text-center md:w-auto"
+          >
+            CONTACT
           </a>
         </nav>
+
+        {/* Contact Email */}
+        <div className="mt-6 text-center">
+          <p className="text-gray-500 text-md mb-1">Reach me At: </p>
+          <a
+            href="mailto:info@sameerhirsi.com"
+            className="text-myred underline hover:text-red-800 transition text-lg md:text-base"
+          >
+            info@sameerhirsi.com
+          </a>
+        </div>
 
         {/* Horizontal line under navigation */}
         <div className="w-full mt-6 md:mt-8">
@@ -136,13 +155,19 @@ const Footer = () => {
         {/* Author Bio Section */}
         <div className="w-full mt-8 text-white text-center px-4 md:px-8 lg:px-20">
           <h2 className="text-xl md:text-2xl underline font-semibold text-myred mb-4">
-            SAMEER HIRSI 
+            SAMEER HIRSI
           </h2>
           <p className="text-base md:text-lg font-medium mb-4">
             MYSTERY AUTHOR, STUDENT, OR STORYTELLER..
           </p>
           <p className="text-sm md:text-base leading-relaxed">
-            Sameer Hirsi is a Somali-born, Seattle-based mystery writer with a passion for suspense and storytelling. A high school senior, Sameer began writing to explore the world and connect with readers through gripping, twist-filled narratives. Inspired by authors like Stephen King, his debut novel <strong>Beyond Reach</strong> dives into the darker corners of mystery fiction, keeping readers guessing until the very last page.
+            Sameer Hirsi is a Somali-born, Seattle-based mystery writer with a
+            passion for suspense and storytelling. A high school senior, Sameer
+            began writing to explore the world and connect with readers through
+            gripping, twist-filled narratives. Inspired by authors like Stephen
+            King, his debut novel <strong>Beyond Reach</strong> dives into the
+            darker corners of mystery fiction, keeping readers guessing until
+            the very last page.
           </p>
           {/* <p className="text-sm md:text-base leading-relaxed mt-4">
             A self-made writer, speaker, and motivator, Sameer turns everyday
@@ -163,7 +188,16 @@ const Footer = () => {
         <div className="w-full mt-8">
           <div className="border-b-2 border-white px-4 md:px-8 lg:px-20" />
         </div>
+        {/* Copyright
+        <p className="mt-6 text-xs text-white/60 text-center">
+          © {new Date().getFullYear()} Sameer Hirsi. All rights
+          reserved.
+        </p> */}
       </div>
+      {/* Copyright */}
+      <p className="mt-6 text-base text-white/60 text-center">
+        © {new Date().getFullYear()} Sameer Hirsi. All rights reserved.
+      </p>
     </footer>
   );
 };

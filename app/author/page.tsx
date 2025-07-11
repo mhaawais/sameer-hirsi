@@ -28,7 +28,7 @@ const Author = () => {
               </p>
             </Link>
             <FaChevronRight className="text-myred text-lg md:text-xl" />
-            <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200">
+            <p className="text-lg md:text-xl font-bold text-myred transition duration-200">
               AUTHOR
             </p>
           </div>
@@ -168,19 +168,23 @@ const Author = () => {
       </div>
 
       {/* Writer Gallery Section */}
-      {/* <div className="bg-black py-12 px-6 md:px-10 lg:px-20">
+      <div className="bg-black py-12 px-6 md:px-10 lg:px-20">
         <h2 className="text-myred text-3xl md:text-4xl font-bold text-center mb-8">
-          WRITER GALLERY
+          MY CAPTURES
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
           {[
-            "/assets/images/charles-1.jpeg",
-            "/assets/images/charles2.jpeg",
-            "/assets/images/charles3.jpeg",
-            "/assets/images/charles4.jpeg",
-            "/assets/images/charles5.jpeg"
+            "/assets/images/author-1.jpeg",
+            "/assets/images/author-2.jpeg",
+            "/assets/images/author-3.jpeg",
+            "/assets/images/author-6.jpeg",
+            "/assets/images/author-5.jpeg",
+            "/assets/images/author-4.jpeg",
           ].map((src, index) => (
-            <div key={index} className="group relative w-full overflow-hidden rounded-lg shadow-lg">
+            <div
+              key={index}
+              className="group relative w-full overflow-hidden rounded-lg shadow-lg"
+            >
               <Image
                 src={src}
                 alt={"Writer"}
@@ -188,14 +192,12 @@ const Author = () => {
                 height={300}
                 className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
               />
-              {/* Overlay 
-              <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-  
-              </div>
+              {/* Overlay */}
+              <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"></div>
             </div>
           ))}
-        </div> 
-      </div>  */}
+        </div>
+      </div>
 
       <Footer />
     </section>

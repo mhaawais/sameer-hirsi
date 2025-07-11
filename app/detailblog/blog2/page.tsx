@@ -25,7 +25,7 @@ const Blog2 = () => {
         <div className="bg-black/50 w-full h-full absolute top-0 left-0 z-0" />
         <div className="container mx-auto flex flex-col justify-center items-center px-4 relative z-10">
           <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white underline mb-8 hover:text-myred transition duration-200">
-            BEYOND REACH POINT ZERO
+            BEYOND REACH : DESTINY POINT
           </h2>
           <div className="flex items-center gap-3">
             <Link href="/">
@@ -34,7 +34,7 @@ const Blog2 = () => {
               </p>
             </Link>
             <FaChevronRight className="text-myred text-lg md:text-xl" />
-            <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200">
+            <p className="text-lg md:text-xl font-bold text-myred transition duration-200">
               BLOG
             </p>
           </div>
@@ -44,7 +44,7 @@ const Blog2 = () => {
       {/* Blog Content Section */}
       <div className="w-full bg-black py-16 px-6 md:px-10 lg:px-20">
         <h2 className="text-myred text-2xl md:text-4xl font-bold text-center mb-10">
-         Beyond Reach: Destiny Point – The Past Resurfaces, The Stakes Rise:
+         Beyond Reach : Destiny Point – The Past Resurfaces, The Stakes Rise:
         </h2>
 
         <div className="w-full text-white text-base md:text-lg space-y-6 leading-relaxed tracking-tight max-w-4xl mx-auto">
@@ -75,7 +75,8 @@ const Blog2 = () => {
          </p>
  
           <p>
-            <span className="font-bold text-myred">With the past uncovered and the present shaken, what lies ahead may be even more devastating.</span> Destiny Point ends with a haunting question: When truth finally rises, will everyone survive it?
+            <span className="font-bold text-myred">With the past uncovered and the present shaken, what lies ahead may be even more devastating.</span>
+            <br /> Destiny Point ends with a haunting question: When truth finally rises, will everyone survive it?
           </p>
 
 
@@ -169,9 +170,9 @@ const Blog2 = () => {
             <div className="text-left">
               <Link href="/detailblog/blog3">
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold hover:underline leading-snug cursor-pointer text-review">
-                  CRITICAL POINT: &gt;
+                  CRITICAL POINT : BEYOND REACH &gt;
                   <br />
-                   BEYOND REACH POINT ZERO.
+                  Justice Meets Destiny... or Does It?
                   {/* <br />
                   The Fighters, and the Broken.
                   <br /> */}

@@ -27,10 +27,10 @@ const config: Config = {
         },
       },
       animation: {
-        slideIn: "slideIn 0.5s ease-out forwards",
+        slideIn: "slideIn 0.7s ease-out forwards",
         fadeUp: "fadeUp 0.6s ease-out forwards",
         fadeInUp: "fadeInUp 0.8s ease-out forwards",
-        slideInRight: "slideInRight 0.5s ease-out forwards",
+        slideInRight: "slideInRight 0.7s ease-out forwards",
       },
       fontFamily: {
         custom: ["MyCustomFont", "sans-serif"],

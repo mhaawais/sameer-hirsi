@@ -24,10 +24,16 @@ const ContactUsClient = () => {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!formData.email.includes("@")) {
+      setStatus("Please enter a valid email address.");
+      return;
+    }
+
     setStatus("Sending...");
 
     try {
-      const response = await fetch("https://formspree.io/f/xyzevalb", {
+      const response = await fetch("https://formspree.io/f/mkgbdbpl", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -50,78 +56,74 @@ const ContactUsClient = () => {
     <div className="bg-black text-white">
       <Header />
 
-      {/* Top Section: Breadcrumb with Image Background */}
-      <section className="relative w-full py-16 md:py-20 lg:py-24">
-        {/* Background Image with 15% Opacity */}
-        {/* <div
-          className="absolute inset-0 bg-cover bg-center opacity-20 z-0"
-          style={{ backgroundImage: `url(/assets/images/contact1.jpg)` }} // Replace with your image path
-        ></div> */}
-        <div className="container mx-auto flex flex-col justify-center items-center px-4 relative z-10">
-          <h2 className="font-bold text-3xl md:text-5xl lg:text-6xl text-white border-t-2 border-b-2 border-myred py-4 mb-8">
+      {/* Top Section */}
+      {/* <section className="py-16 md:py-20 text-center">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-bold border-y-2 border-myred inline-block py-3 mb-4">
             CONTACT
           </h2>
-          <div
-            className="flex items-center gap-3"
-          >
+          <div className="flex justify-center items-center gap-2 mt-4 text-white">
             <Link href="/">
-              <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200 underline cursor-pointer">
+              <span className="text-lg font-medium hover:text-myred underline cursor-pointer">
                 HOME
-              </p>
+              </span>
             </Link>
-            <FaChevronRight className="text-myred text-lg md:text-xl" />
-            <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200">
-              CONTACT
-            </p>
+            <FaChevronRight className="text-myred" />
+            <span className="text-lg font-medium text-myred">CONTACT</span>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* Combined Section */}
-      <section className="flex flex-col md:flex-row w-full min-h-screen">
-        {/* Left Section with background and image */}
-        <div className="w-full md:w-1/2 relative flex items-center justify-center md:justify-end bg-black h-[60vh] md:h-auto">
-          {/* <div
-            className="absolute left-0 top-0 bottom-0 w-[70%] bg-cover bg-center z-0"
-            style={{ backgroundImage: `url(/assets/images/contact2.jpg)` }}
-          ></div> */}
+      <div className="relative w-full bg-black py-16 md:py-20 lg:py-24">
+      <div className="container mx-auto flex flex-col justify-center items-center px-4">
+        <h2 className="font-bold text-3xl md:text-5xl lg:text-6xl text-white border-t-2 border-b-2 border-myred py-4 mb-8">
+          CONTACT
+        </h2>
+        <div className="flex items-center gap-3">
+          <Link href="/">
+            <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200 underline cursor-pointer">
+              HOME
+            </p>
+          </Link>
+          <FaChevronRight className="text-myred text-lg md:text-xl" />
+          <p className="text-lg md:text-xl font-bold text-myred transition duration-200">
+            CONTACT
+          </p>
+        </div>
+      </div>
+    </div>
 
-          <div className="w-72 h-72 sm:w-[360px] sm:h-[360px] md:w-96 md:h-96 lg:w-[410px] lg:h-[410px] ">
-            {/* Adjusted image sizes for responsiveness and reduced margin mr-2 md:mr-2 mt-12 md:mt-0*/}
+      {/* Main Contact Section */}
+      <section className="flex flex-col md:flex-row w-full">
+        {/* Left - Image */}
+        <div className="w-full md:w-1/2 flex justify-center items-center p-6">
+          <div className="w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96">
             <Image
-              src="/assets/images/E-book.JPG"
-              alt="Sameer"
+              src="/assets/images/author-6.jpeg"
+              alt="Sameer Hirsi"
+              width={400}
               height={500}
-              width={300}
-              className="rounded-lg shadow-lg object-cover" // Added object-cover for better scaling
+              className="w-full h-full object-cover rounded-lg shadow-2xl"
               priority
             />
           </div>
         </div>
 
-        {/* Right Side Content */}
-        <div className="w-full md:w-1/2 bg-black flex flex-col justify-center p-6 md:p-8 mt-16 md:mt-6">
-          {/* Reduced padding from p-12 to p-8 on md screens */}
-          <h3 className="text-myred text-lg md:text-xl font-semibold uppercase tracking-wide">
-            ABOUT SAMEER ——
+        {/* Right - Form */}
+        <div className="w-full md:w-1/2 bg-black p-6 sm:p-10 lg:p-14 flex flex-col justify-center">
+          <h3 className="text-myred text-lg font-semibold uppercase tracking-widest mb-2">
+            About Sameer ——
           </h3>
-          <h2
-            className="text-white text-3xl md:text-4xl font-bold leading-tight mt-2"
-            style={{ textShadow: "1px 1px 2px myred" }}
-          >
-            MESSAGE SAMEER HIRSI
+          <h2 className="text-white text-3xl md:text-4xl font-bold mb-4">
+            Message Sameer Hirsi
           </h2>
-          <p className="text-white text-base md:text-lg lg:text-xl mt-6 leading-relaxed mb-8">
-            I would love to hear from you, please drop me a line!
+          <p className="text-gray-300 text-base md:text-lg mb-6">
+            I would love to hear from you. Please drop me a line!
           </p>
 
-          {/* Contact Form */}
           <form onSubmit={handleSubmit} className="space-y-5">
-            <div className="flex flex-col">
-              <label
-                htmlFor="name"
-                className="text-xs font-semibold text-gray-300 uppercase mb-2"
-              >
+            <div>
+              <label htmlFor="name" className="text-xs font-semibold text-gray-400 uppercase mb-2 block">
                 Name
               </label>
               <input
@@ -132,15 +134,12 @@ const ContactUsClient = () => {
                 onChange={handleChange}
                 required
                 placeholder="Your name"
-                className="p-3 border border-gray-600 bg-black text-white rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-myred placeholder-gray-400 text-sm"
+                className="w-full p-3 border border-gray-700 bg-black text-white rounded focus:ring-2 focus:ring-myred placeholder-gray-500 text-sm"
               />
             </div>
 
-            <div className="flex flex-col">
-              <label
-                htmlFor="email"
-                className="text-xs font-semibold text-gray-300 uppercase mb-2"
-              >
+            <div>
+              <label htmlFor="email" className="text-xs font-semibold text-gray-400 uppercase mb-2 block">
                 Email
               </label>
               <input
@@ -150,16 +149,13 @@ const ContactUsClient = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                placeholder="Your email address"
-                className="p-3 border border-gray-600 bg-black text-white rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-myred placeholder-gray-400 text-sm"
+                placeholder="Your email"
+                className="w-full p-3 border border-gray-700 bg-black text-white rounded focus:ring-2 focus:ring-myred placeholder-gray-500 text-sm"
               />
             </div>
 
-            <div className="flex flex-col">
-              <label
-                htmlFor="message"
-                className="text-xs font-semibold text-gray-300 uppercase mb-2"
-              >
+            <div>
+              <label htmlFor="message" className="text-xs font-semibold text-gray-400 uppercase mb-2 block">
                 Message
               </label>
               <textarea
@@ -169,40 +165,31 @@ const ContactUsClient = () => {
                 onChange={handleChange}
                 required
                 placeholder="Your message"
-                rows={5}
-                className="p-3 border border-gray-600 bg-black text-white rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-myred placeholder-gray-400 text-sm resize-y"
+                rows={6}
+                className="w-full p-3 border border-gray-700 bg-black text-white rounded focus:ring-2 focus:ring-myred placeholder-gray-500 text-sm resize-y"
               />
             </div>
 
             <button
               type="submit"
-              className="w-full bg-myred text-white py-3 rounded text-sm font-medium hover:opacity-90 transition-colors"
+              className="w-full bg-myred text-white py-3 rounded font-medium hover:bg-[#b32d37] transition-all text-sm"
             >
-              Send message
+              Send Message
             </button>
           </form>
 
           {status && (
-            <p
-              className={`mt-5 text-sm ${
-                status.includes("successfully")
-                  ? "text-green-400"
-                  : "text-red-500"
-              }`}
-            >
+            <p className={`mt-4 text-sm ${status.includes("success") ? "text-green-400" : "text-red-500"}`}>
               {status}
             </p>
           )}
 
-          <div className="mt-8 text-sm text-gray-400">
+          <p className="mt-6 text-sm text-gray-400">
             Or email me at{" "}
-            <a
-              href="mailto:info@sameerhirsi.com"
-              className="text-myred hover:underline"
-            >
+            <a href="mailto:info@sameerhirsi.com" className="text-myred underline hover:text-white">
               info@sameerhirsi.com
             </a>
-          </div>
+          </p>
         </div>
       </section>
 
@@ -210,4 +197,5 @@ const ContactUsClient = () => {
     </div>
   );
 };
+
 export default ContactUsClient;

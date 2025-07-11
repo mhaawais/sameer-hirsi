@@ -1,88 +1,99 @@
-import React from 'react';
-import { FaChevronRight } from 'react-icons/fa';
-import Link from 'next/link';
-import Header from '@/components/header';
-import Footer from '@/components/footer';
+import React from "react";
+import { FaChevronRight } from "react-icons/fa";
+import Link from "next/link";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 import type { Metadata } from "next";
-import Image from 'next/image';
+import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Book - Beyond Reach Point Zero | Sameer Hirsi", 
-  description: "Book: Beyond Reach Point Zero - By Sameer Hirsi. About gripping blend of psychological suspense, political intrigue, and emotional depth.",
+  title: "Book - Beyond Reach Point Zero | Sameer Hirsi",
+  description:
+    "Book: Beyond Reach Point Zero - By Sameer Hirsi. About gripping blend of psychological suspense, political intrigue, and emotional depth.",
 };
 
 const Book1 = () => {
   return (
     <section>
       <Header />
-      <div className="relative w-full bg-black py-16 md:py-20 lg:py-24">
-        <div className="container mx-auto flex flex-col justify-center items-center px-4">
-          <h2 className="font-bold text-3xl md:text-5xl lg:text-6xl text-white border-t-2 border-b-2 border-myred py-4 mb-8">
+
+      {/* Top Section - Breadcrumb */}
+      <div className="relative w-full bg-white py-4 sm:py-6 md:py-8 lg:py-10">
+        <div className="container mx-auto flex flex-col justify-center items-center px-4 text-center">
+          <h2 className="font-extrabold text-3xl md:text-5xl lg:text-6xl text-black border-t-2 border-b-2 border-myred py-2 mb-2">
             BOOKS
           </h2>
-          <div className="flex items-center gap-3">
-            <Link href="/">
-              <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200 underline cursor-pointer">
-                HOME
-              </p>
+          <div className="flex items-center gap-2 text-black text-base md:text-lg font-semibold">
+            <Link
+              href="/"
+              className="hover:text-myred underline transition duration-200"
+            >
+              HOME
             </Link>
-            <FaChevronRight className="text-myred text-lg md:text-xl" />
-            <p className="text-lg md:text-xl font-bold text-white hover:text-myred transition duration-200">
-              BOOK
-            </p>
+            <FaChevronRight className="text-myred" />
+            <span className="hover:text-myred transition duration-200">
+              BOOK-I
+            </span>
           </div>
         </div>
       </div>
 
-      <div className='w-full bg-black px-6 md:px-10 lg:px-20 py-12'>
+      {/* Main Book Section */}
+      <div className="w-full bg-black px-6 md:px-10 lg:px-20 py-10 md:py-16">
         <div className="container mx-auto">
-          <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-myred text-center pb-8 underline hover:text-white transition duration-200">
-            BEYOND REACH POINT ZERO
+          <h2 className="font-extrabold text-2xl md:text-4xl lg:text-5xl text-myred text-center pb-10 underline decoration-2 hover:text-white transition duration-300">
+            BEYOND REACH - POINT ZERO(I)
           </h2>
-          
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
-            {/* Image Container - Larger */}
+
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-16">
+            {/* Book Image */}
             <div className="w-full lg:w-1/2 flex justify-center">
-              <div className="bg-black p-4 rounded-md w-full max-w-[500px]">
+              <Link
+                href={
+                  "https://www.amazon.com/BEYOND-REACH-POINT-ZERO-Part-ebook/dp/B0F94HC3FP"
+                }
+                className="bg-black p-3 rounded-md w-full max-w-[300px] border border-white shadow-xl transition duration-300 ease-in-out transform hover:scale-105"
+              >
                 <Image
-                  src="/assets/images/E-book.JPG"
+                  src="/assets/images/1.JPG"
                   alt="Book Cover"
-                  width={800}  // Increased size
-                  height={1000} // Maintained aspect ratio
-                  className="w-full h-auto rounded-md object-contain shadow-lg"
+                  width={300}
+                  height={450}
+                  className="w-full h-auto rounded-md object-contain"
                   priority
                 />
-              </div>
+              </Link>
             </div>
-            
-            {/* Text Container */}
-            <div className="w-full lg:w-1/2 text-white space-y-6 flex flex-col items-center">
-              <div className="space-y-6">
 
-                 <p className="text-lg md:text-xl leading-relaxed">
-                   The Beyond Reach series by Sameer Hirsi is a gripping blend of psychological suspense, political intrigue, and emotional depth that spans a powerful installment. It begins with Point Zero, where Judge Jack Wilson wakes up in a hospital with no memory only to discover he's at the center of a mysterious crash and a tangled web of secrets. As timelines shift between present danger and youthful ambition at Stanford, readers are drawn into a world where identity, justice, and love collide.  
-                 </p>
+            {/* Book Description */}
+            <div className="w-full lg:w-1/2 text-white space-y-6 flex flex-col items-start">
+              <p className="text-base md:text-lg leading-relaxed">
+                In this gripping mystery, a team of investigators must unravel
+                the complex web of a locked-room murder. When Hailey's body is
+                discovered in her high-rise apartment, the team is faced with a
+                puzzling scene—no signs of forced entry or struggle, and no
+                clear suspects. The circumstances surrounding her death raise
+                more questions than answers, pushing the investigators to work
+                closely and think outside the box.
+              </p>
 
-                <p className="text-lg md:text-xl leading-relaxed">
-                  <span className="italic">Beyond Reach Point Zero</span> is not just a picture book. It's a family masterpiece, a father-daughter collaboration born from real moments, real photos, and real love. Created by Sameer Hirsi harming and colorful journey blends laughter, imagination, and the magic of togetherness into every page.
-                </p>
-                
-                <p className="text-lg md:text-xl leading-relaxed">
-                  What began as a fun experiment turned into a heartfelt legacy. This book isn't about perfection, it's about presence. It's about a dad who turned screen time into dream time. And in doing so, he gave his daughter the tools to express herself.
-                </p>
+              <p className="text-base md:text-lg leading-relaxed">
+                As the team digs deeper, they begin to uncover a tangled web of
+                secrets and lies hidden beneath Hailey’s seemingly perfect life.
+                Each clue brings them closer to a notorious figure with a
+                history of ruthless tactics, revealing a dangerous undercurrent
+                that could put more lives at risk. What began as a puzzling case
+                soon becomes a race against time to expose the truth before the
+                killer strikes again.
+              </p>
 
-                <p className="text-lg md:text-xl leading-relaxed">
-                  Part One introduces us to Judge Jack Wilson, who, after a near-fatal car crash, finds himself facing the terrifying reality of memory loss. The woman claiming to be his wife, Katarina a brilliant detective reveals that the crash might not have been accidental. As Jack fights to reconstruct his past, Katarina dives into a dangerous investigation that could shake their world.
-                </p>
-              </div>
+              {/* Get Book Button */}
 
-              {/* Centered Button */}
-              <div className="w-full flex justify-center pt-6">
-                <Link 
-                  href={"https://www.amazon.com/BEYOND-REACH-POINT-ZERO-Part-ebook/dp/B0F94HC3FP"} 
-                  className="bg-myred hover:bg-red-700 text-white font-bold py-4 px-10 rounded-md 
-                            text-xl md:text-2xl transition-all duration-300 transform hover:scale-105 
-                            shadow-lg hover:shadow-red-500/50 text-center min-w-[250px]"
+              <div className="w-full flex justify-center items-center pt-6">
+                <Link
+                  href="https://www.amazon.com/BEYOND-REACH-POINT-ZERO-Part-ebook/dp/B0F94HC3FP"
+                  target="_blank"
+                  className="inline-block bg-myred hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full text-lg md:text-xl transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-red-400/50 text-center"
                 >
                   GET THE BOOK HERE
                 </Link>

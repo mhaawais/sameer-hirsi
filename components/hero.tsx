@@ -11,7 +11,7 @@ const Hero = () => {
           <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-myred mb-2">
             OUT NOW —
           </h2>
-          <h1 className="text-xl md:text-2xl lg:text-4xl font-bold mb-3 leading-tight">
+          <h1 className="text-xl md:text-2xl lg:text-4xl font-bold mb-3 leading-tight font-custom">
             "Every clue hides a lie. Every ally has a secret. And the truth... is beyond reach."
           </h1>
 
@@ -32,7 +32,7 @@ const Hero = () => {
         {/* Image */}
         <div className="w-full md:w-1/2 flex justify-center animate-slideInRight">
           <Image
-            src="/assets/images/E-book.JPG"
+            src="/assets/images/1.JPG"
             alt="Book Cover"
             width={500}
             height={700}
