@@ -6,3 +6,8 @@
     font-family: MyCustomFont;
     src: url("../public/assets/font/TIMES.TTF");
 }
+
+/* styles/globals.css */
+body.loading {
+  overflow: hidden;
+}
